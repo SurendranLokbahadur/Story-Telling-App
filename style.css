@@ -1,0 +1,30 @@
+#content {
+    width:60%;
+    margin: 20px auto;
+    border: 20px greenyellow;
+}
+form{
+    width: 50%;
+    margin: 20px auto;
+}
+form div{
+    margin-top: 5px;
+}
+#img_div{
+    width: 90%;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px hotpink;
+}
+#img_div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    float: left;
+    margin: 10px;
+    width: 500px;
+    height: 250px;
+}
+
