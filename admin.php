@@ -42,7 +42,12 @@ if(isset($_POST['upload']))
         echo"<div id= 'img_div'>";
         echo"<img src = ' images/" .$row['image']. " ' >";
         echo "<p>". $row['text']. "</p>";
-        echo "<td>"; ?> <a href = " delete.php?id =<?php echo $row["id"] ; ?> ">Delete</a> <?php echo"</td>";
+        echo "<br>";
+        echo "<td>"; ?> <a href = " rating.html?id =<?php echo $row["id"] ; ?> ">Click here for Rating </a> <?php echo "</td>";
+        echo "<br>";
+        echo "<br>";
+        echo "<br>";
+        echo "<td>"; ?> <a href = " delete.php?id =<?php echo $row["id"] ; ?> ">Manage & Remove</a> <?php echo"</td>";
         echo "</div>";
     } ?>
 
