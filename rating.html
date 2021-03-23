@@ -2,28 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+
+         <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>
+    </head>
+
 <body>
 
+<body>
+<div class="container">
+
+    <br/>
+    <label for="input-1" class="control-label">RATINGS:</label>
+    <input id="input-1" name="input-1" class="rating rating-loading" value="0" data-min="0" data-max="5" data-step="0.5" data-size="xs">
+
+</div>
 
 
-</form>
-<div class="center">
-    <form action="" method="post">
-        <div class="rating">
-            <input type="radio" name="star" id="star-1" value="1">
-            <input type="radio" name="star" id="star-2" value="2">
-            <input type="radio" name="star" id="star-3" value="3">
-            <input type="radio" name="star" id="star-4" value="4">
-            <input type="radio" name="star" id="star-5" value="5">
-            <label for="star-1">&#11088;</label>
-            <label for="star-2">&#11088;</label>
-            <label for="star-3">&#11088;</label>
-            <label for="star-4">&#11088;</label>
-            <label for="star-5">&#11088;</label></form>
-    <tr><td > <a href = "RATING.php">Submit</a> <br><br> </td></tr>
-</div> </div>
+<script>
+    $("#input-id").rating();
+</script>
+
+
+</body>
+</html>
 
 
 
